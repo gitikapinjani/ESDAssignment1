@@ -1,0 +1,132 @@
+.header{
+    background-image: url(foodBackground.jpg);
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 1.5rem;
+}
+
+.header .btn {
+    background-color: #ff3333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.border-card{
+    box-shadow: 0 4px 8px rgba(47, 45, 45, 0.26);
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 10px;
+}
+
+.card{
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(circle, #ee9d4c,  #ffcc00);
+    border-radius: 500px 500px 100px 100px;
+    overflow: visible;
+
+}
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+.card-text {
+    color:red;
+    font-weight: bold;
+}
+
+.card.card-body.btn{
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card.btn:hover {
+    background-color: #ff9900;
+    color: #fff;
+}
+
+.img{
+position: absolute; /* Position the image absolutely */
+    top: -100px;
+    left: -50px;
+    width: 400px;
+    height: 400px; /* Move it up to overflow */
+}
+
+.card-body {
+    padding-top: 250px; /* Adjust as needed */
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+.left-section {
+    float: left;
+    width: 60%; /* Adjust width as needed */
+}
+
+.right-section {
+    float: right;
+    width: 25%; /* Adjust width as needed */
+}
+
+/* Clearfix to Clear Floats */
+.clearfix {
+    clear: both;
+}
+
+.float-left p{
+        line-height: 1.2;
+        font-size: 0.8rem; /* Decrease the value to reduce spacing, increase to add more spacing */
+}
+
+.float-right p{
+    color: rgb(101, 30, 30);
+}
+
